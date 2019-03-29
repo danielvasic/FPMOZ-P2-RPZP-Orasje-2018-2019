@@ -1,7 +1,7 @@
 from tkinter import *
-from funkcije.provjera import provjera
+from funkcije.provjera import provjera_baza
 
-studenti = provjera()
+studenti = provjera_baza()
 
 master = Tk()
 master.title ("Pregled bodova")

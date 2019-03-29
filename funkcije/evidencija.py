@@ -1,6 +1,6 @@
 from sqlite3 import *
-
-def dodaj_studenta():
+from datetime import date
+def dodaj_studenta(polje1, polje2):
     ime = polje1.get()
     prezime = polje2.get()
     # datoteka = open(str(date.today())+"_P2_RPZP.txt", "a")
